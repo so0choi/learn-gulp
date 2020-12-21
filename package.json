@@ -5,9 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "gulp dev",
+    "dev": "gulp dev",
     "build": "gulp build"
   },
   "author": "Soyeong choi",
   "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "del": "^6.0.0",
+    "gulp-pug": "^4.0.1"
+  }
 }
